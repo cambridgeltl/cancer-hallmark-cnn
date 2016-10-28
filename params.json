@@ -1,0 +1,6 @@
+{
+  "name": "Biotxtm-2016",
+  "tagline": "Resources from Baker et al. \"Cancer Hallmark Text Classification Using Convolutional Neural Networks\" (BioTxtM 2016)",
+  "body": "### Paper\r\n\r\nSimon Baker, Anna Korhonen and Sampo Pyysalo, *Cancer Hallmark Text Classification Using Convolutional Neural Networks* published at the Fifth Workshop on Building and Evaluating Resources for Biomedical Text Mining ([BioTxtM 2016](http://www.nactem.ac.uk/biotxtm2016/)) at [Coling 2016](http://coling2016.anlp.jp/).\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
