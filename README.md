@@ -2,7 +2,7 @@
 
 Resources from Baker et al. "Cancer Hallmark Text Classification Using Convolutional Neural Networks" (BioTxtM 2016).
 
-Please cite our paper: http://www.aclweb.org/anthology/W/W16/W16-51.pdf#page=13
+Please cite our paper: http://www.aclweb.org/anthology/W/W16/W16-5101.pdf
 
 @article{baker2016cancer,
   title={Cancer Hallmark Text Classification Using Convolutional Neural Networks},
