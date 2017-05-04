@@ -1,0 +1,42 @@
+Instructions for repeating the experiments from Baker et al. "Cancer
+Hallmark Text Classification Using Convolutional Neural Networks" (BioTxtM'16)
+
+# Development experiments
+
+## Base
+
+    ./run-base-model.sh
+    mv logs/ logs-base
+    ./summarize-devel.sh logs-base/*
+
+## Oversampling
+
+    ./run-oversampled.sh
+    mv logs logs-oversampled    
+    ./summarize-devel.sh logs-oversampled/*
+
+## Word vectors
+
+    ./run-wordvecs.sh
+    mv logs logs-wordvecs
+    ./summarize-wordvecs.sh logs-wordvecs/*
+
+## Filter sizes
+
+    ./run-filters.sh
+    mv logs logs-filtes
+    ./summarize-filters.sh logs-filters/*
+
+# Test experiments
+
+## Base
+
+    ./run-test-base.sh
+    mv logs logs-test-base
+    ./summarize-test.sh logs-test-base/*
+
+## Tuned
+
+    ./run-test.sh
+    mv logs logs-test-tuned
+    ./summarize-test.sh logs-test-tuned/*
